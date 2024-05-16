@@ -7,11 +7,14 @@
 
 import React from 'react';
 import Index from './src/Screens/Index';
+import { View } from 'react-native';
 
 export default function App() {
 
   return (
-    <Index />
+    <View style={{flex: 1}}>
+      <Index />
+    </View>
   )
 }
 

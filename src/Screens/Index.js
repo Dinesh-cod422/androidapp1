@@ -9,7 +9,7 @@ function Index() {
     return (
         <NavigationContainer>
             <Stack.Navigator screenOptions={{headerShown:false}}>
-                <Stack.Screen name="SplashScreen" component={SplashScreen} hea/>
+                <Stack.Screen name="SplashScreen" component={SplashScreen}/>
             </Stack.Navigator>
         </NavigationContainer>
     );
