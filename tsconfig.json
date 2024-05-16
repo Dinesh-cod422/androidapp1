@@ -1,0 +1,3 @@
+{
+  "extends": "@react-native/react-native/tsconfig.json"
+}
